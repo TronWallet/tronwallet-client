@@ -1,0 +1,22 @@
+{
+  "name": "tronwallet-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link-ws": "^1.0.18",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "subscriptions-transport-ws": "^0.9.16",
+    "ws": "^7.1.1"
+  },
+  "devDependencies": {}
+}
